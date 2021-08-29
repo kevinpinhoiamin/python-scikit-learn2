@@ -7,7 +7,7 @@ from collections import Counter
 # busca, logado
 # busca: 75% (7 testes)
 
-df = pd.read_csv('busca.csv')
+df = pd.read_csv('busca2.csv')
 
 X_df = df[['home', 'busca', 'logado']]
 Y_df = df['comprou']
